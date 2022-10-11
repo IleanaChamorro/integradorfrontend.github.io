@@ -1,0 +1,93 @@
+body {
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    position: relative;
+ }
+ 
+ body div {
+     scroll-margin-top: 4.5em;
+ }
+ .navbar {
+     background-color: #222;
+ }
+ .navbar .navbar-brand {
+     margin-left: 3%;
+     color: white;
+ }
+ .navbar .navbar-brand img{
+     width: 120px;
+ }
+ 
+ .navbar li.nav-item a.nav-link {
+     color: grey;
+ }
+ 
+ #navbarSupportedContent {
+     margin-right: 4%;
+ }
+ 
+ .header .carousel-inner {
+     filter: brightness(50%);
+ }
+ 
+ .header .textCarousel {
+     top: 30%;
+     z-index: 700;
+     padding-right: 7%;
+ }
+ 
+ .header h1 {
+     font-weight: 600;
+ }
+ .cardOradores {
+     background-color: #FFF;
+     padding: 0.5em 15%;
+ }
+ 
+ .cardOradores p {
+     font-size: 1em;
+ }
+ 
+ .cardOradores .card {
+     text-align: justify;
+     margin-bottom: 1em;
+ }
+ 
+ .cardOradores span {
+     margin-right: 0.5em;
+ }
+ 
+ .postal {
+     background-color: #222;
+     color: #FFF;
+     text-align: justify;
+ }
+ 
+ .postal p {
+     font-size: 1em;
+ }
+ 
+ .formOrador {
+     background-color: #FFF;
+     padding: 1em 25%;
+ }
+ 
+ .formOrador p:nth-child(1) {
+     font-size: 0.7em;
+ }
+ 
+ .formOrador button {
+     background-color: #91d353;
+     color: #f3f3f3;
+ }
+ .footer {
+     background-color: #0f3544;
+ }
+ 
+ .footer a {
+     color: #ececec;
+     font-size: 0.8em;
+     width: 10em;
+ }
+ 
